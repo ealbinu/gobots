@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="156" height="159" viewBox="0 0 156 159">
+  <defs>
+    <path id="bot-5-a" d="M152,61 C141.954305,61 132,50.9264069 132,39 C132,26.0735931 141.954305,16 152,16 C162.045695,16 168,26.0735931 168,39 C168,50.9264069 162.045695,61 152,61 Z M28,61 C17.954305,61 12,50.9264069 12,39 C12,26.0735931 17.954305,16 28,16 C38.045695,16 48,26.0735931 48,39 C48,50.9264069 38.045695,61 28,61 Z"/>
+    <path id="bot-5-d" d="M50,13 L50,13 C61.045695,13 70,21.954305 70,33 L70,44 L30,44 L30,33 C30,21.954305 38.954305,13 50,13 Z"/>
+    <filter id="bot-5-c" width="160%" height="177.4%" x="-30%" y="-38.7%" filterUnits="objectBoundingBox">
+      <feOffset in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="4"/>
+      <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.5 0"/>
+    </filter>
+    <filter id="bot-5-e" width="150%" height="164.5%" x="-25%" y="-32.3%" filterUnits="objectBoundingBox">
+      <feGaussianBlur in="SourceAlpha" result="shadowBlurInner1" stdDeviation="2"/>
+      <feOffset in="shadowBlurInner1" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.5 0"/>
+    </filter>
+    <rect id="bot-5-f" width="60" height="16" x="20" y="36" rx="1"/>
+    <path id="bot-5-g" d="M12,0 L118,0 C124.627417,-1.21743675e-15 130,5.372583 130,12 L130,82 C130,102.98682 112.98682,120 92,120 L38,120 C17.0131795,120 2.57014425e-15,102.98682 0,82 L0,12 C-8.11624501e-16,5.372583 5.372583,1.21743675e-15 12,0 Z"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(-12 -5)">
+    <g transform="translate(0 66)">
+      <mask id="bot-5-b" fill="#fff">
+        <use xlink:href="#bot-5-a"/>
+      </mask>
+      <use fill="#E1E6E8" xlink:href="#bot-5-a"/>
+      <g fill="#FFF" mask="url(#bot-5-b)">
+        <rect width="180" height="76"/>
+      </g>
+      <rect width="140" height="76" x="20" fill="#000" fill-opacity=".2" mask="url(#bot-5-b)"/>
+    </g>
+    <g transform="translate(41)">
+      <use fill="#000" filter="url(#bot-5-c)" xlink:href="#bot-5-d"/>
+      <use fill="#FFF" fill-opacity=".3" xlink:href="#bot-5-d"/>
+      <use fill="#000" filter="url(#bot-5-e)" xlink:href="#bot-5-d"/>
+      <path fill="#FFF" fill-opacity=".6" d="M50,36 C52.209139,36 54,35.0279942 54,31.7142857 C54,28.4005772 52.209139,24 50,24 C47.790861,24 46,28.4005772 46,31.7142857 C46,35.0279942 47.790861,36 50,36 Z"/>
+      <path stroke="#FFF" stroke-linecap="round" stroke-width="2" d="M50,15.5 C54.9315485,15.5 59.3660426,17.6281427 62.4352098,21.0161556 M64.8733745,24.5107242 C65.5630474,25.8293043 66.0825179,27.2509729 66.4026217,28.7465657"/>
+      <use fill="#48494B" xlink:href="#bot-5-f"/>
+    </g>
+    <g transform="translate(25 44)">
+      <mask id="bot-5-h" fill="#fff">
+        <use xlink:href="#bot-5-g"/>
+      </mask>
+      <use fill="#0076DE" xlink:href="#bot-5-g"/>
+      <g fill="#BDBDBD" mask="url(#bot-5-h)">
+        <rect width="134" height="124" transform="translate(-2 -2)"/>
+      </g>
+    </g>
+    <g transform="translate(52 124)">
+      <rect width="68" height="22" x="4" y="5" fill="#000" fill-opacity=".2" rx="5"/>
+      <rect width="60" height="14" x="8" y="9" fill="#000" fill-opacity=".6" rx="2"/>
+      <polygon fill="#E1E6E8" points="20 9 26 17 14 17" transform="matrix(1 0 0 -1 0 26)"/>
+      <polygon fill="#E1E6E8" points="32 9 38 17 26 17" transform="matrix(1 0 0 -1 0 26)"/>
+      <polygon fill="#E1E6E8" points="44 9 50 17 38 17" transform="matrix(1 0 0 -1 0 26)"/>
+      <polygon fill="#E1E6E8" points="56 9 62 17 50 17" transform="matrix(1 0 0 -1 0 26)"/>
+    </g>
+    <g fill="#FFF" transform="translate(56 100)">
+      <circle cx="6" cy="6" r="6"/>
+      <circle cx="62" cy="6" r="6"/>
+    </g>
+  </g>
+</svg>

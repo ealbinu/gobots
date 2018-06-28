@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="130" height="156" viewBox="0 0 130 156">
+  <defs>
+    <polygon id="bot-23-a" points="50 8 82 52 18 52"/>
+    <path id="bot-23-c" d="M126,79.5857961 L126,104 C126,112.836556 118.836556,120 110,120 L20,120 C11.163444,120 4,112.836556 4,104 L4,79.5857961 L0,79.5857961 L1.10489633e-15,41.0221632 C-6.41976585e-16,26.7578634 1.48520978,21.5852836 4.27412326,16.3704687 C7.06303674,11.1556539 11.1556539,7.06303674 16.3704687,4.27412326 C21.5852836,1.48520978 26.7578634,-7.71967361e-14 41.0221632,-7.98170454e-14 L88.9778368,-7.65023564e-14 C103.242137,-7.91226658e-14 108.414716,1.48520978 113.629531,4.27412326 C118.844346,7.06303674 122.936963,11.1556539 125.725877,16.3704687 C128.51479,21.5852836 130,26.7578634 130,41.0221632 L130,79.5857961 L126,79.5857961 Z"/>
+    <rect id="bot-23-e" width="91" height="16" x="7" y="16" rx="4"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(-25 -8)">
+    <g transform="translate(41)">
+      <mask id="bot-23-b" fill="#fff">
+        <use xlink:href="#bot-23-a"/>
+      </mask>
+      <use fill="#E1E6E8" xlink:href="#bot-23-a"/>
+      <g fill="#9CCC65" mask="url(#bot-23-b)">
+        <rect width="100" height="52"/>
+      </g>
+      <rect width="30" height="48" x="50" y="4" fill="#FFF" fill-opacity=".8" mask="url(#bot-23-b)"/>
+    </g>
+    <g transform="translate(25 44)">
+      <mask id="bot-23-d" fill="#fff">
+        <use xlink:href="#bot-23-c"/>
+      </mask>
+      <use fill="#0076DE" xlink:href="#bot-23-c"/>
+      <g fill="#DCEDC8" mask="url(#bot-23-d)">
+        <rect width="134" height="120" transform="translate(-2)"/>
+      </g>
+      <rect width="122" height="40" x="4" y="80" fill="#000" fill-opacity=".8" mask="url(#bot-23-d)"/>
+    </g>
+    <g transform="translate(52 124)">
+      <rect width="68" height="24" x="4" y="4" fill="#000" fill-opacity=".2" rx="5"/>
+      <rect width="60" height="16" x="8" y="8" fill="#000" fill-opacity=".8" rx="2"/>
+      <polyline stroke="#4EFAC9" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" points="9 17 20 17 22 13 25 20 29 12 31 21 34 10 37 20 40 17 55 17 58 13 60 20 63 17 67 17"/>
+    </g>
+    <g transform="translate(38 76)">
+      <mask id="bot-23-f" fill="#fff">
+        <use xlink:href="#bot-23-e"/>
+      </mask>
+      <use fill="#000" fill-opacity=".8" xlink:href="#bot-23-e"/>
+      <polygon fill="#FFF" fill-opacity=".8" points="76 7 94 7 82 37 64 37" mask="url(#bot-23-f)"/>
+      <polygon fill="#FFF" fill-opacity=".8" points="52 7 61 7 49 37 40 37" mask="url(#bot-23-f)"/>
+    </g>
+  </g>
+</svg>
